@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+<!-- FavIcon -->
+    <link rel="shortcut icon" href="assets/logo/nm.png" type="image/x-icon"/>
+<!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" 
+    />
+    <!-- Whatsapp -->
+    <!-- <link rel="stylesheet" href="https://sdnjs.cloudflare.com/ajax/libs/"> -->
+<!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+<!-- Jonsuh -->
+    <link rel="stylesheet" href="dist/css/hamburgers.css"/>
+<!-- CSS -->
+    <link rel="stylesheet" href="style.css"/>
+<!-- font poppins -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+    <title>Hallo Photo Studio</title>
+</head>
+<body>
+<!-- Awal Best Shots -->
+<section class="best-shots" id="best-shots">
+<div class="container">
+    <div class="best-shots-box">
+        <div class="box">
+          <a href="#"><img src="logo/nm.png" alt="logo" > </a>
+            <h1>PreWedding Studio</h1>
+            <p> By : Hallo Photo Studio</p>
+
+        </div>
+        <div class="box">
+<!-- Swiper -->
+<div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+    <!-- Gambar 1 -->
+      <div class="swiper-slide">
+        <img src="img/fotocouple.jpeg" >
+    </div>
+    <!-- Gambar 2 -->
+      <div class="swiper-slide">
+        <img src="img/fotopersonal.jpeg" >
+    </div>
+    <!-- Gambar 3 -->
+      <div class="swiper-slide">
+        <img src="img/fotocouple.jpeg">
+    </div>  
+    <!-- Gambar 4 -->
+      <div class="swiper-slide">
+        <img src="img/fotopersonal.jpeg" alt="unsplast.com"> 
+    </div>
+    <!-- Gambar 5 -->
+      <div class="swiper-slide">
+        <img src="img/fotocouple.jpeg" alt="unsplast.com"> 
+    </div>
+    <!-- Gambar 6 -->
+      <div class="swiper-slide">
+        <img src="img/fotopersonal.jpeg" alt="unsplast.com">
+    </div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+        </div>
+        <a href="#" class="popup-btn">Booking Now</a>
+    </div>
+</div>
+</section>
+<!-- Akhir Best Shots -->
+<!-- deskripsi -->
+<div class="deskripsi">
+    <h1>Deskripsi</h1>
+    <p>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere nesciunt iusto ratione quia voluptate reprehenderit quod excepturi laboriosam cumque magnam quas atque accusantium molestias tempore, officiis at pariatur consequatur fugit!
+    </p>
+  </div>
+<!-- deskripsi -->
+
+<!-- F0tter -->
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <h4>Kontak</h4>
+        <p>
+          Email: <a href="mailto:info@example.com">info@example.com</a>
+        </p>
+        <p>
+          Telepon: +62 812-345-6789
+        </p>
+      </div>
+      <div class="col-md-4">
+        <h4>Sosial Media</h4>
+        <ul class="list-inline">
+          <li><a href="https://www.facebook.com/example" target="_blank"><i class="fab fa-facebook"></i></a></li>
+          <li><a href="https://twitter.com/example" target="_blank"><i class="fab fa-tiktok"></i></a></li>
+          <li><a href="https://www.instagram.com/example" target="_blank"><i class="fab fa-instagram"></i></a></li>
+        </ul>
+      </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- F0tter -->
+
+<!-- footer -->
+<section class="footer">
+  <div class="footer-box">
+    <p>&copy;Copyright by <span>Hallo Photo Studio</span> 2023, All right reserved.</p>
+    <!-- folow media sosial kami
+    - tiktok
+  -  -->
+  </div>
+</section>
+
+<!-- Js -->
+<script src="dist/js/script.js"></script>
+
+ <!-- Swiper JS -->
+ <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      spaceBetween: 10,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      breakpoints: {
+        640: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        922: {
+          slidesPerView: 3,
+          spaceBetween: 20,
+        },
+        1200: {
+          slidesPerView: 4,
+          spaceBetween: 20,
+        },
+      },
+    });
+  </script>
+
+
+
+
+</body>
+</html>
